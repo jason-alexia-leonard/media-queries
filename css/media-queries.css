@@ -1,64 +1,80 @@
-.pagewrapper {
-display: flex;
- /*flex-wrap: nowrap;*/
-flex-direction: column;
- padding: 1em;
- box-sizing: border-box;
+@media screen and (max-width:812px) {
+ .pagewrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 1em;
+  box-sizing: border-box;
+ }
+
+ body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  align-content: center;
+  background-color: white;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+ .alert-info {
+  height: 1em;
+  /*width: 100%;*/
+  padding: 1em;
+  /*margin: .5em;*/
+  border: 2px solid rgb(210, 210, 210);
+  background-color: rgb(214, 254, 254);
+  text-align: center;
+ }
+
+ .alert-info > a {
+  text-decoration: none;
+  color: black;
+ }
+
+ h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: 7px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+ }
+
+ ul {
+  list-style: none;
+  margin: 0;
+
+  /*align-content: stretch;*/
+ }
+
+ .nav-links {
+  width: 100%;
+  padding: 0;
+ }
+
+ .nav-links li {
+  box-sizing: border-box;
+  margin: .5em 0;
+  padding: .5em;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(204, 204, 204);
+ }
+
+ img {
+  width: 100%;
+ }
+
+ .sub-section {
+  font-style: italic;
+ }
+
+ #social-media-links img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 50%;
+ }
+
 }
 
-body{
- padding: 0;
- margin: 0;
- width: 100%;
- align-content: center;
-background-color: white;
-justify-content: center;
-font-family: 'Ubuntu', sans-serif;
-}
-
-.alert-info {
- height: 1em;
- /*width: 100%;*/
- padding: 1em;
- /*margin: .5em;*/
- border: 2px solid rgb(210,210,210);
- background-color: rgb(214, 254, 254);
- text-align: center;
-}
-.alert-info>a {
-text-decoration: none; color: black;
-}
-
-h1 {
-margin: 0;
-font-size: 3em;
-font-weight: 7px;
-font-family: 'Ubuntu', sans-serif;
- text-align: center;
-}
-
-ul{
- list-style: none;
- margin: 0;
-
- /*align-content: stretch;*/
-}
-.nav-links
-{
- width:100%;
- padding: 0;
-}
-
-.nav-links li{
- box-sizing: border-box;
- margin: .5em 0;
- padding: .5em;
- width: 100%;
- text-align: center;
- background-color: rgb(204,204,204);
-}
-
-img
-{
- width: 100%;
-}
