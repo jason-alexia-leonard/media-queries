@@ -1,0 +1,28 @@
+.pagewrapper {
+box-sizing: borderbox;
+display: flex;
+flex-direction: column;
+background-color: white;
+align-items: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.alert-info {
+ height: 1em;
+ align-self: stretch;
+ padding: 1em;
+ margin: .5em;
+ border: 2px solid rgb(210,210,210);
+ background-color: rgb(214, 254, 254);
+ text-align: center;
+}
+.alert-info>a {
+text-decoration: none; color: black;
+}
+
+h1 {
+margin: 0;
+font-size: 3em;
+font-weight: 7px;
+font-family: 'Ubuntu', sans-serif;
+}
