@@ -78,3 +78,48 @@
 
 }
 
+@media screen and (min-width:813px) {
+.hidden-on-desktop {
+display:none;
+}
+body {
+width: 100%;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+font-family: 'Ubuntu', sans-serif;
+}
+.pagewrapper {
+padding: 1em;
+box-sizing:border-box;
+
+}
+nav {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: baseline;
+}
+ul{
+display: flex;
+list-style:none;
+justify-content: flex-end;
+
+}
+li {
+margin:0.5em;
+}
+h1 {
+padding:0;
+margin-right:auto;
+}
+.header-img img {
+max-width:100%;
+height:auto;
+width: 100vw;
+}
+
+}
